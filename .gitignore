@@ -1,0 +1,17 @@
+# Path budget: 512 bytes (artifacts/submission-budget.json).
+# The static publisher needs dist/; do not ignore it.
+**/node_modules/
+**/.npm/
+**/.pnpm-store/
+**/.yarn/cache/
+**/.cache/
+**/.vite/
+**/.turbo/
+**/coverage/
+**/test-results/
+**/playwright-report/
+**/__pycache__/
+**/*.tsbuildinfo
+.playwright-mcp/
+test/scratch/
+.imd/
